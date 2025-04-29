@@ -1,0 +1,23 @@
+.container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    width: 400px;
+  }
+  
+  input {
+    margin: 10px 0;
+    width: 100%;
+  }
+  
+  button {
+    background: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+    width: 100%;
+    cursor: pointer;
+  }
+  

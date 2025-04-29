@@ -8,3 +8,4 @@ export const uploadUsers = (users) => API.post('/users/upload', users);
 export const createGroup = (group) => API.post('/groups/create', group);
 export const sendMessage = (message) => API.post('/messages/send', message);
 export const getUsers = () => API.get('/users');
+export const sendMessageToUser = (message) => API.post('/messages/send-user', message);
